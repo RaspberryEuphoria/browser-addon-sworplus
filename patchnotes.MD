@@ -1,3 +1,9 @@
+# Version 1.2.0
+
+## Nouveautés :
+
+- L'addon est désormais accessible sur Google Chrome !
+
 # Version 1.1.1
 
 ## Bugfixs :
