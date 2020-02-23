@@ -1,15 +1,16 @@
 {
-
   "manifest_version": 2,
   "name": "SWOR+",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "icons": {
     "48": "icons/logo-black.png"
   },
-  "content_scripts": [{
-    "matches": ["*://*.swor-jdr.com/*"],
-    "js": ["js/polyfills/browser-polyfill.min.js", "js/colors.js"]
-  }],
+  "content_scripts": [
+    {
+      "matches": ["*://*.swor-jdr.com/*"],
+      "js": ["js/polyfills/browser-polyfill.min.js", "js/colors.js"]
+    }
+  ],
   "options_ui": {
     "page": "ui/settings.html"
   },
